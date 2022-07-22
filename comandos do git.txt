@@ -1,0 +1,21 @@
+git init (comando para mudar pra main pra inicializar o controle de projeto)
+
+roda apenas uma  vez 
+git config --global user.name (usuario do github)
+git config --global user.email (email)
+
+
+git status(verificar se houve alteração)
+
+git add . ou git add "nome do arquivo" (para incluir o arquivo no proximo commit (proxima versão))
+
+git commit -m (especificar oq foi alterado, pra gerar uma versão)
+
+git log (para verificar as versões q é os commits)
+
+git reset --hard (comando pra alterar o commits)
+
+para mover os arquivos no servidor remoto:
+git remote add origin (+ o link do site mostra no repositorio)
+"uma vez"
+git push -u origin main (para adicionar)
